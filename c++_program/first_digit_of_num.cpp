@@ -1,11 +1,19 @@
 #include<iostream>
 using namespace std;
 
+// int firstDigitOfNumber(int n){
+//     if(n/10 > 9){
+//         return firstDigitOfNumber(n/10);
+//     }
+//     return n/10;
+// }
+
 int firstDigitOfNumber(int n){
-    if(n/10 > 9){
+    if(n < 10){
+        return n;
+    }else{
         return firstDigitOfNumber(n/10);
     }
-    return n/10;
 }
 
 int main(){
@@ -13,11 +21,12 @@ int main(){
     int num;
     cout<<"Enter Your Number : ";
     cin>>num;
-    if(num < 10){
-        cout<<num;
-    }else{
+    // if(num < 10){
+    //     cout<<num;
+    // }else{
+    //    cout<<firstDigitOfNumber(num);
+    // }
        cout<<firstDigitOfNumber(num);
-    }
 
 
     return 0;

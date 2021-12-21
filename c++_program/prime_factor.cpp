@@ -26,4 +26,6 @@ int main(){
     cout<<"Enter Number : ";
     cin>>n;
     primeFactor(n);
+
+    return 0;
 }

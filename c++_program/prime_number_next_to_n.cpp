@@ -19,7 +19,6 @@ int nextPrimeNo(int n){
 }
 
 int main(){
-    // cout<<"Hello World";
     cout<<nextPrimeNo(7);
 
     return 0;

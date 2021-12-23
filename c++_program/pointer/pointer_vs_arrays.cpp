@@ -10,7 +10,7 @@ int main(){
     // cout<<sizeof(ptr)<<endl;
     // cout<<sizeof(*ptr)<<endl;
     // cout<<sizeof(arr)<<endl;
-    cout<<(arr[3]);
+    // cout<<(arr[3]);
 
     return 0;
 }

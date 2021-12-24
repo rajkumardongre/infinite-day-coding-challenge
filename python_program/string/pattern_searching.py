@@ -1,0 +1,9 @@
+# "geeks for geeks" => 0 10
+s = "geeks for geeks"
+pat = "geeks"
+s = "AAAAA"
+pat = "AAA"
+pos = s.find(pat)
+while(pos>=0):
+    print(pos,end=" ")
+    pos = s.find(pat,pos+1)
